@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nouhaila Chab Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/HeroImage.png" alt="Nouhaila Chab" width="90">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nouhaila Chab">Nouhaila Chab</h1>
+
+          <p class="title">Software Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nouhailachab933@gmail.com" class="contact-link">nouhailachab933@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+212 706061488</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-11-07">November 07, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mohammedia, Casablanca-Settat, Morocco</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nouhaila-chab-69a9391ba/" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/nouhaila65334" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://gitlab.com/nouhaila6" class="social-link">
+              <i class="fab fa-gitlab"></i>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://twitter.com/ChabNouhaila" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/lalala_nouhaila/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/nouhayla.nouha.7315" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a 5th year Computer Science and Software Engineering student 
+            at the National School of Applied Sciences of Safi Marrakesh-Safi, 
+            Morocco, expected to graduate in July 2024. I am passionate about 
+            using technology to solve real-world problems and make a positive 
+            impact on the world.
+          </p>
+
+          <p>
+            My job is to build your web/mobile application  so that it is functional and user-friendly but at the same time attractive and scalable.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. 
+            I am eager to use my skills and knowledge to work on projects that make a difference. I am also a team player and I am always willing to 
+            learn new things.
+            
+          </p>
+            If you are looking for a talented and motivated person to work on your project, please contact me. I am confident that I can make a 
+            significant contribution to your team.
+          <p>
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps</h4>
+
+                <p class="service-item-text">
+                   I can help you automate your software development and deployment process, 
+                   making it more efficient and reliable.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud</h4>
+
+                <p class="service-item-text">
+                   I can help you design and implement a cloud-based infrastructure that is scalable,
+                   secure, and cost-effective.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                   I can help you develop and deploy machine learning models to solve 
+                   real-world problems.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+        
+
+       
+
+
+        
+
+      </article>
+
+
+      <!-- The part of displaying the views -->
+    <section class="counter">
+      <div class="counter-number text-white-50 font-os font-size-16 active">Couldn't read views</div>
+    </section>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National School of Applied Sciences of Safi</h4>
+
+              <span>September 2019 — July 2024</span>
+
+              <p class="timeline-text">
+                <span>Computer Science Engineering Student</span>
+                
+                Relevant Coursework : Algorithms and Data Structure, Financial Engineering, Python, 
+                Mathematics for Engineers, Stochastic Modeling, Networking, Information Systems, 
+                System Architecture, Web Development, Linux and Free Software, Machine Learning, 
+                Java, UML, Optimization Techniques, Communication Techniques, 
+                Android Mobile Development, Kotlin, JEE, PHP, Laravel, C,
+                Data Analytics, Marketing, SQL, Data Visualization, Security, Cloud Computing.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">International Development Research Center Canada, American University in Cairo, 
+                and the Center for Continuing Education, Birzeit University</h4>
+
+              <span>March 2023 - September 2023</span>
+
+              <p class="timeline-text">
+                <span>Artificial Intelligence and Data Student</span> 
+                
+                • Relevant Coursework: Advanced Machine Learning, Deep Learning, Business Analysis, Data Analysis, 
+                Artificial Intelligence Foundations.
+                <br>
+                • Complete of the study of the learning journey in AI and Data for development.
+                <br>
+                • Collaborate on a group project to develop a Minimum Viable Product (MVP) of a mobile application. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Massachusetts Amherst</h4>
+
+              <span>June 2023 - July 2023</span>
+
+              <p class="timeline-text">
+                <span>International Summer Exchange Student</span> 
+             
+                Study of the US Institutes, Donahue Institute, Student Leaders on Economic Empowerment
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chawki High school</h4>
+
+              <span>September 2016 — July 2019</span>
+
+              <p class="timeline-text">
+                French International Baccalaureate in Physics Chemistry, with highest honors
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior React Native Mobile Developer Intern - YANCOM CREATION AGENCY</h4>
+
+              <span>August 2023 — October 2023</span>
+
+              <p class="timeline-text">
+                • Collaborate with cross-functional teams to gather requirements, design the user interface, and ensure a 
+                cohesive user experience. <br> 
+                • Implement data binding techniques for efficient data retrieval and management within the application.
+                <br>
+                • Manage API requests using Redux for state management of options like dark mode, and Axios to manage 
+                HTTP requests and promises.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ML Engineer and BI Consultant Intern - ADI SOLAR SARL</h4>
+
+              <span>July 2022 — September 2022</span>
+
+              <p class="timeline-text">
+                • Built Machine Learning Model using Pytorch, to classify fruits, and to detect the fruit 
+                diseases using image preprocessing, by providing details about the type of the disease.
+                <br>
+                • Assemble LSTM Machine Learning Model to predict the value of soil PH, using a real time 
+                series dataset, containing 7239 row and 9 inputs.
+                <br>
+                • Engineered BI Dashboards using PowerBI, to visualize agricultural data like PH, 
+                Soil Temperature, to innovate solutions using machine-learning techniques.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React Js</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Laravel</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DovOps: Docker, Kubernates, Jenkins, Terraform</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud: AWS, GCP</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile Development: React Native</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Business Intelligence</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>DevOps</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Business Intelligence</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>DevOps</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            
+            
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/nouhaila65334/E-learning-App.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projet6.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-learning React Native Application</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="https://github.com/nouhaila65334/Tri9i.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projet5.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Educational React Js website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Web development">
+              <a href="https://github.com/nouhaila65334/vid-ai2022.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projet3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Youtube Video Manipulator</h3>
+
+                <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="DevOps">
+                <a href="https://gitlab.com/nouhaila6/first_d_o_app.git">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/projet7.png" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Building a Reusable AWS S3 CI/CD Pipeline</h3>
+  
+                  <p class="project-category">DevOps</p>
+  
+                </a>
+              </li>
+  
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="https://github.com/nouhaila65334/ecommerce-laravel">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/projet1.png" alt="store website" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">E-commerce store</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+
+                <li class="project-item  active" data-filter-item data-category="Business Intelligence">
+                  <a href="https://github.com/nouhaila65334/Report-Agriculture-Dashboard.git">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project2.png" alt="orizon" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Agriculture Dashboard</h3>
+    
+                    <p class="project-category">Business Intelligence</p>
+    
+                  </a>
+                </li>
+
+            <li class="project-item  active" data-filter-item data-category="Machine Learning">
+              <a href="https://github.com/nouhaila65334/LSTM_Modeling.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LSTM Modeling for Real-time data streaming</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="Machine Learning">
+              <a href="https://github.com/nouhaila65334/harpls">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projet-har.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Human Activity Recognition Application</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/p/a15fc3b3831e">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/data-binding-blog.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Information technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-17">Fab 17, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data Binding</h3>
+
+                  <p class="blog-text">
+                    Data binding is a computer programming concept that allows various parts of a program or application to collaborate and share information.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.16103505244!2d-7.553773508414031!3d33.616183751752466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b65c53c95ceb%3A0x4ea2c9c26f92aa26!2sMohammedia!5e0!3m2!1sen!2sma!4v1699710062158!5m2!1sen!2sma" width="400" height="300"  loading="lazy"></iframe>
+          </figure>
+      </section>
+      
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
