@@ -1,7 +1,7 @@
 
 # Cloud Resume Challenge
 
-The Cloud Resume Challenge is a comprehensive project designed to develop and showcase essential skills necessary for a career in Cloud computing. 
+✨The Cloud Resume Challenge is a comprehensive project designed to develop and showcase essential skills necessary for a career in Cloud computing. 
 This challenge encompasses multiple steps aimed at building a resume project that demonstrates proficiency in various AWS services and cloud technologies.
 
 
@@ -36,25 +36,9 @@ This challenge encompasses multiple steps aimed at building a resume project tha
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript
 
 **Server:** AWS, Python, Terraform
-
-
-## Project Architecture
-
-![Project Architecture](https://drive.google.com/file/d/1KifqSkNxEj_MxOIsOxKq0AZLZMSJ__BO/view?usp=sharing)
 
